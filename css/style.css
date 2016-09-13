@@ -67,6 +67,11 @@
      width: 1170px;
    }
  }
+ @media (min-width: 1280px) {
+    .container {
+      width: 720px;
+    }
+ }
 
   /* HEADER */
  header {
