@@ -8,6 +8,8 @@
  */
 
 /* These styles assume you are using ul and li */
+
+
 .dropit {
   list-style: none;
   padding: 0;
@@ -16,6 +18,18 @@
   display:inline-block;
   padding:10px 30px;
 }
+
+.sub {
+   position:absolute;
+   width:100%;
+   bottom:0;
+   left:0;
+   right:0;
+   padding: 0;
+   text-align: right;
+   margin: 10px 10px 22px;
+ }
+
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
   position: absolute;
@@ -27,7 +41,7 @@
   min-width: 100px;
   list-style: none;
   padding: 20px;
-  margin: 20px 0 0;
+  margin: 25px 0 0;
 }
 .dropit .dropit-open .dropit-submenu {
   display: block;
