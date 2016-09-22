@@ -14,19 +14,22 @@
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="stylesheet" href="css/dropit.css">
  
  </head>
 
  <body class="dashboard">
+    <!-- RESPONSIVE NAV -->
+   <a class="hamburger" id="menu" href="#">&#9776;</a>
    <!-- LEFT NAV -->
    <nav id="left-nav" class="left-nav">
-     <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
+     <a href="file:///Users/dapperyounglad/Desktop/notebox/index.html" class="site-logo"><img src="images/site-logo.png" /></a>
      <div class="items">
        <p>Items</p>
        <ul>
-         <li><a href="#"><i class="fa fa-th-large"></i> All Items</a></li>
+         <li><a href="file:///Users/dapperyounglad/Desktop/notebox/dashboard.html"><i class="fa fa-th-large"></i> All Items</a></li>
          <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
-         <li><a href="images.html"><i class="fa fa-picture-o"></i> Images</a></li>
+         <li class="active"><a href="file:///Users/dapperyounglad/Desktop/notebox/images.html"><i class="fa fa-picture-o"></i> Images</a></li>
          <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
        </ul>
        <p>Boxes</p>
@@ -38,97 +41,109 @@
      </div>
 
       <div class="settings">
-     <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
-     <p>Austin Marticorena</p>
-     <a href="#"><i class="fa fa-cog"></i></a>
+     <p class="copyright-block"> &copy; 2016. <strong>notebox</strong> - All Rights Reserved.</p>
    </div>
 
    </nav>
 
      <main role="main">
-   <!-- Benefits -->
+   <!-- CONTENT -->
    <section class="content">
      <div class="container">
        <div class="header">
-         <h1>All Images</h1>
-         <a href="#" class="btn">+ Add</a>
+         <h1>All Items</h1>
+         <ul class="menu">
+            <li>
+              <a href="#" class="btn">+ Add</a>
+              <ul>
+                  <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                  <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                  <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+              </ul>
+            </li>
+          </ul>
+         <div class="settings">
+     <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
+     <p>Austin Marticorena</p>
+      <ul class="sub">
+            <li>
+              <a href="#"><i class="fa fa-cog"></i></a>
+              <ul>
+                  <li><a href="#"><i class="fa fa-cog"></i> My Account</a></li>
+                  <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
        </div>
      </div>
+     </div>
      <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="http://static.pexels.com/wp-content/uploads/2014/11/red-wine-tapas-3540-825x550.jpg">
-         </div>
-       </div>
-       <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="https://s3.amazonaws.com/StartupStockPhotos/uploads/20160503/6.jpg">
-         </div>
-       </div>
-       <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="https://s3.amazonaws.com/StartupStockPhotos/uploads/13.jpg">
-         </div>
-       </div>
-       <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="https://static.pexels.com/photos/112561/pexels-photo-112561.jpeg">
-         </div>
-       </div>
-       <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="https://static.pexels.com/photos/60221/pexels-photo-60221.jpeg">
-         </div>
-       </div>
-       <div class="container">
-       <div class="content-item">
-         <div class="item-box">
-          <img src="https://static.pexels.com/photos/173296/pexels-photo-173296.jpeg">
-         </div>
-       </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
           <img src="https://static.pexels.com/photos/29615/pexels-photo-29615.jpg">
          </div>
        </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
-          <img src="http://41.media.tumblr.com/90ef0b4692e0ba4df321674c3572e5ba/tumblr_ndyve8fmFa1tubinno1_r1_1280.jpg">
+          <img src="http://static.pexels.com/wp-content/uploads/2014/11/red-wine-tapas-3540-825x550.jpg">
          </div>
        </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
-          <img src="http://41.media.tumblr.com/0390d80d6c8cc4a7096033182a4bfe8a/tumblr_ndyvukSjNl1tubinno1_1280.jpg">
+         <img src="https://s3.amazonaws.com/StartupStockPhotos/uploads/20160503/6.jpg">
          </div>
        </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
-          <img src="http://41.media.tumblr.com/fddb3f2b0bdf390efd7ea87372e75fa5/tumblr_ndyg3pYbKW1tubinno1_1280.jpg">
+         <img src="http://41.media.tumblr.com/90ef0b4692e0ba4df321674c3572e5ba/tumblr_ndyve8fmFa1tubinno1_r1_1280.jpg">
          </div>
        </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
-          <img src="https://static.pexels.com/photos/168989/pexels-photo-168989.jpeg">
+         <img src="https://s3.amazonaws.com/StartupStockPhotos/uploads/13.jpg">
          </div>
        </div>
-       <div class="container">
        <div class="content-item">
          <div class="item-box">
-          <img src="https://static.pexels.com/photos/60268/pexels-photo-60268.jpeg">
+         <img src="http://41.media.tumblr.com/0390d80d6c8cc4a7096033182a4bfe8a/tumblr_ndyvukSjNl1tubinno1_1280.jpg">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         <img src="https://static.pexels.com/photos/112561/pexels-photo-112561.jpeg">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         <img src="https://static.pexels.com/photos/60221/pexels-photo-60221.jpeg">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         <img src="http://41.media.tumblr.com/fddb3f2b0bdf390efd7ea87372e75fa5/tumblr_ndyg3pYbKW1tubinno1_1280.jpg">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         <img src="https://static.pexels.com/photos/173296/pexels-photo-173296.jpeg">
          </div>
        </div>
      </div>
+
    </section>
  </main>
-
+ <script src="js/jquery-3.1.0.min.js"></script>
+   <script src="js/dropit.js"></script>
+   <script type="text/javascript">
+     $(".menu").dropit();
+     $( "#menu" ).click(function() {
+         $("#left-nav").toggleClass("open", 200);
+     });
+     $(".sub").dropit();
+     $( "#sub" ).click(function() {
+         $("#left-nav").toggleClass("open", 200);
+     });
+   </script>
  </body>
  </html>
+ 
